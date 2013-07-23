@@ -1,4 +1,6 @@
 depends          "java"
+depends          "git"
+depends          "maven"
 description      "Installs/Configures mule esb, downloads mule project from repository, build by mvn and deploy on mule according to MULE_HOME"
 license          "Apache License"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))

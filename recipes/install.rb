@@ -9,7 +9,7 @@
 include_recipe "java"
 
 
-ZIP_FILE = "mule-standalone-3.3.1.zip"
+ZIP_FILE = "mule-standalone-#{node['mule']['version']}.zip"
 MULE_URL = "http://dist.codehaus.org/mule/distributions/#{ZIP_FILE}"
 
 #download mule zip file
